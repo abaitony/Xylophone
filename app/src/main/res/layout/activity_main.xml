@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFF00115"
+        android:onClick="playRed"/>
+
+    <Button
+        android:id="@+id/btnBrown"
+        android:layout_width="370dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="playBrown"/>
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFF8E44C"
+        android:onClick="playYellow"/>
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="325dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF4EED75"
+        android:onClick="playGreen"/>
+
+    <Button
+        android:id="@+id/btnDarkGreen"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF1E5E57"
+        android:onClick="playDarkGreen"/>
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF173CC0"
+        android:onClick="playBlue"/>
+
+    <Button
+        android:id="@+id/btnViolet"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="#FF7211B3"
+        android:onClick="playViolet"/>
+</LinearLayout>
